@@ -1,11 +1,12 @@
-# TryHackMe SOC Simulator Investigations
+# TryHackMe SOC Simulator — Investigations
 
-This folder contains dated case reports from TryHackMe SOC Simulator exercises.
+This directory contains completed SOC Simulator investigation write-ups.
 
-## Reports
+## 4 November 2026 — Email Phishing & Firewall Investigation
 
-- [2026-11-04 — Email Phishing & Firewall Investigation](2026-11-04-Email-Phishing-Firewall-Investigation.md)
+The exercise covered inbound email triage, suspicious external links, URL reputation checks, a malicious URL access attempt blocked by the firewall, and correlation between email and firewall telemetry.
 
-## Adding a new scenario
+[**Read the full investigation report**](2026-11-04-Email-Phishing-Firewall-Investigation.md)
 
-Create a new dated report using [CASE-REPORT-TEMPLATE.md](CASE-REPORT-TEMPLATE.md). Include the alert evidence, investigation logic, classification, escalation, remediation, indicators, limitations, and relevant screenshots. Link the report from the repository root README.
+The report includes the four alert/event records shared for this exercise, the simulator dashboard metrics, investigation reasoning, indicators, escalation considerations, remediation recommendations, and evidence limitations.
+
